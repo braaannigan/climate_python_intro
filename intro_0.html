@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Course introduction</title>
+    <meta charset="utf-8">
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+
+# Better analysis with python
+
+*Liam Brannigan (with help from Lucy Tallents)*
+
+MISU, December 2017
+---
+# Key concepts
+- Much easier to write good code with **labelled** data
+- Analysing in **parallel** need not be complicated
+- **Just in time** compilation may save you a lot of time
+---
+# Things we *will* do today
+- See how these concepts work in practice
+- Look at some realistic examples
+
+# Things we will *not* do today
+- Go into much detail
+---
+# Objectives
+You will:
+- be able to take advantage of major recent advances in analysis software
+- have a set of materials that you can use for practice to get yourself going
+
+You will not be able to:
+- use these packages like an expert
+
+**Focus on the key concepts, not the details of the code**.
+
+---
+# Plan
+1. Pandas and labelled data
+2. Going parallel with dask
+3. Labels and parallel for netcdf files with xarray
+4. Compiling with numba
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>hljs.initHighlightingOnLoad();
+    </script>
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+    highlightLanguage: 'python',
+    highlightStyle: 'docco'});
+    </script>
+  </body>
+</html>
