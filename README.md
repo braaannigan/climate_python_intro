@@ -1,6 +1,6 @@
 # Introduction to python for climate scientists
-The material here is aimed to climate scientists who work with data in netcdf files.
-The aim of is to show that you can use python to carry out your analysis
+This tutorial here is aimed to climate scientists who work with data in netcdf files.
+The aim of the tutorial is to show that you can use python to carry out your analysis
 in a way that:
 * scales better to large datasets
 * is easier to write
@@ -20,11 +20,14 @@ and so you can just play around with the existing code.  There are links
 throughout to other material that I've found helpful for learning
 the basics.
 
-At the end of this tutorial you **will not** be an expert programmer.  Instead
+# What happens after the tutorial?
+At the end of the tutorial you **will not** be an expert programmer.  Instead
 the point is to alert you to the fact that packages
-exist that provide good solutions for many of the problems you face in your analysis workflow.
-Using these packages will allow you to spend more time thinking about the
-scientific problems that you really want to focus on.
+exist that provide good solutions for many of the problems you face in your own work.
+Using these packages will allow you to spend *more* time thinking about the
+scientific problems that you really want to focus on
+and *less* time thinking about which loop index corresponds to which dimension
+of the array.
 
 Finally, remember that these packages are open source and
 have all been written by a community of people like you who started out making baby steps
