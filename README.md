@@ -25,4 +25,6 @@ scientific problems that you really want to focus on.
 Finally, remember that these packages are open source and
 have all been written by a community of people like you who started out making baby steps
 themselves.  In time, if you come across a bug in the software take that as
- a chance to get involved and contribute back to the community.
+ a chance to get involved and contribute back to the community.  To learn more
+ about open source software for climate analysis in particular,
+ [see the Pangeo project](https://pangeo-data.github.io/).
