@@ -8,6 +8,10 @@ in a way that:
 
 # Installation instructions
 The installation instructions [are here](https://github.com/braaannigan/climate_python_intro/blob/master/installation_instructions.md).
+The four sessions are on Pandas, Dask, Numba and Xarray. The names of the notebooks
+indicate the order of the sessions e.g. pandas_1.ipynb is the first session.
+There are also a few datasets that you play around with in the sessions.  Feel
+free to substitute your own data instead!
 
 # Who can do this tutorial?
 If you have used matlab or R or whatever before you should be able to follow
