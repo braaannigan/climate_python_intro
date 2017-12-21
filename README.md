@@ -16,8 +16,8 @@ and so you can just play around with the existing code.  There are links
 throughout to other material that I've found helpful for learning
 the basics.
 
-At the end of this tutorial you **will not** be an expert programmer.  
-Instead the point is to alert you to the fact that packages
+At the end of this tutorial you **will not** be an expert programmer.  Instead
+the point is to alert you to the fact that packages
 exist that provide good solutions for many of the problems you face in your analysis workflow.
 Using these packages will allow you to spend more time thinking about the
 scientific problems that you really want to focus on.
