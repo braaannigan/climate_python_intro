@@ -7,8 +7,9 @@ in a way that:
 * and is easier to read.
 
 # Installation instructions
-The installation instructions are XXX
+The installation instructions [are here](https://github.com/braaannigan/climate_python_intro/blob/master/installation_instructions.md).
 
+# Who can do this tutorial?
 If you have used matlab or R or whatever before you should be able to follow
 the material.  The materials are written in interactive jupyter notebooks
 and so you can just play around with the existing code.  There are links
