@@ -53,6 +53,8 @@ activate work3
 
 You should see 'work3' now appearing at the start of the command prompt.
 
+**You need to activate the work3 environment when you load the jupyter notebooks.**
+
 You can deactivate and return to your root environment with the command:
 ```
 source deactivate work3
@@ -70,43 +72,43 @@ You do this with the command
 python -m ipykernel install --user --name work3 --display-name "work3"
 ```
 
-# Test installation
-You can test whether the installation has worked by opening a jupyter notebook.  In the command line enter:
+# Tutorial materials
+Once you have your virtual environment set up, you can download the tutorial
+materials.  
+
+## Downloading the materials
+In your browser, go to this page:
+https://github.com/braaannigan/climate_python_intro
+and click on the green clone or download button.
+
+If you want to use git then you can simply clone the repository
+to the current directory in the command line by running:
+```
+git clone https://github.com/braaannigan/climate_python_intro.git
+```
+
+If you don't want to use git, then you can download the material.  First,
+create a directory called ```climate_python_intro``` for the workshop material.
+
+If you are using mac or linux:
+   click the 'copy to clipboard' button on the pop-up box on the website to copy the address;
+   Navigate to your workshop directory in the terminal.  
+   and in your terminal run the command
+   git clone <paste address>
+
+If git clone doesn't work then follow the windows instructions below.
+
+If you are using windows:
+    Click on the green clone or download button.
+    Click on "download zip" at the bottom of the pop-up box.  Unzip the file into your workshop directory
+
+## Opening the materials
+Once you have cloned/downloaded the materials, you can open them.
+Navigate to your new ```climate_python_intro``` directory.  
+Open a jupyter notebook in that directory by running
 ```
 jupyter notebook
 ```
-
-A notebook should then open in your web browser.  Click the 'new' button on the top right and see if 'work3' is listed as an installation.  If not, then let me know.
-
-Finally, to make sure everything is installed correctly, run the test notebook.
-Navigate to [this page in your web browser](https://raw.githubusercontent.com/braaannigan/explore_data/master/workshop_installation_check.ipynb)
-
-Click ctrl + s to save the file as workshop_installation_check.ipynb.
-
-Navigate to the directory where you saved the .ipynb file from your terminal.  
-Check that you have activated the work3 environment - it should say ```work3```
-at the start of your command prompt. If not, activate ```work3``` with:
-```
-source activate work3
-```
-or in windows
-
-```
-activate work3
-```
-and then open a jupyter notebook with the command
-```
-jupyter notebook
-```
-
-Open the file: workshop_installation_check.ipynb.
-
-Execute the two cells​ by pressing shift-enter in each cell.  
-The first cell imports the necessary
-packages.  The second cell checks that the package versions are up-to-date.
-
-There may be a slight issue with xarray.  You should have version 0.9 or 0.10,
-the code I've written may suggest there's a problem when you have 0.10, but this
-can be ignored.
-
-If there is a problem, send me the output from the second cell.
+in the command line.  If you are asked to specify a kernel, make sure that
+you choose ```work3```.  Check that you can open the pandas_1.ipynb file and do the first import statements.
+If you have problems and google can't solve them, then let me know.
