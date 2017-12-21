@@ -81,12 +81,13 @@ In your browser, go to this page:
 https://github.com/braaannigan/climate_python_intro
 and click on the green clone or download button.
 
+### Option 1: git clone
 If you want to use git then you can simply clone the repository
 to the current directory in the command line by running:
 ```
 git clone https://github.com/braaannigan/climate_python_intro.git
 ```
-
+### Options 2: downloading
 If you don't want to use git, then you can download the material.  First,
 create a directory called ```climate_python_intro``` for the workshop material.
 
